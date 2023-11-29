@@ -1,0 +1,59 @@
+/* lato-regular - latin */
+@font-face {
+    
+  font-family: 'TTLakes';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/TTLakes-Medium.woff') 
+}
+
+@font-face {
+  
+  font-family: 'TTLakes';
+  font-style: normal;
+  font-weight: 900;
+  src: url('/fonts/TTLakesCompressed-Bold.woff'); 
+}
+
+  
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+  }
+
+  body {
+    
+    font-family: sans-serif;
+background: #F8F8F8;
+
+  }
+
+  
+  a {
+    
+    transition: opacity 03s ease;
+  }
+  
+  a, a:visited{
+
+    text-decoration: none;
+  }
+  
+  a, a:hover{
+   border: 2px;
+   border-color: blue;
+  }
+
+  a:active{
+    outline: none;
+
+  }
+  
+
+
